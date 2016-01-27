@@ -108,7 +108,7 @@ menu li a
 
 menu li a.active
 {
-  color: #01ffea;
+  color: #fff;
 }
 
 menu li a:hover
