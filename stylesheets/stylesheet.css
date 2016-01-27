@@ -51,7 +51,7 @@ header
 
 header h1
 {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
@@ -118,6 +118,30 @@ menu li a:hover
 }
 
 /* Main Content */
+
+/* unvisited link */
+a:link
+{
+  color: #01ffea;
+}
+
+/* visited link */
+a:visited
+{
+  color: #01ffea;
+}
+
+/* mouse over link */
+a:hover
+{
+  color: hotpink; /* Angel wanted this :p */
+}
+
+/* selected link */
+a:active
+{
+  color: white;
+}
 
 .body
 {
